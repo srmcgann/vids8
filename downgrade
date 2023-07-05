@@ -1,0 +1,2 @@
+#/bin/bash
+ffmpeg -i "$1" -b:v 1800k -bufsize 3000k "$2"
